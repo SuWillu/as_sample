@@ -1,0 +1,1 @@
+﻿package com.susanakaiser.events{	import flash.events.*;		public class CancelFormatEvent extends Event	{		public static const CANCEL_FORMAT:String = "cancelFormat";		public var strFormat:String;				public function CancelFormatEvent(strCancelFormat:String):void		{			super(CANCEL_FORMAT);			strFormat = strCancelFormat;		}			}}
